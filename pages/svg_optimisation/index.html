@@ -41,10 +41,6 @@
             >Articol despre optimizare</a
           >
         </p>
-        <p>
-          Putem folosi SVGO pentru a face optimizarea
-          <a href="https://jakearchibald.github.io/svgomg/" alt="SVGO">Link</a>
-        </p>
         <article>
           <div class="lesson-example">
             <h2>Not-optimised</h2>
@@ -61,8 +57,8 @@
           <div class="lesson-example">
             <h2>fill: currentColor</h2>
             <p>
-              Daca folosim <em>fill:currentColor</em> svg-ul se va colora in
-              functie de culoarea textului parintelui
+              Daca folosim <em>fill:currentColor</em> svg-ul se va colora in functie de culoarea
+              textului parintelui
             </p>
             <div class="colored-text">
               <svg class="icon">
@@ -73,8 +69,8 @@
           <div class="lesson-example">
             <h2>fill: var(--variabila-css)</h2>
             <p>
-              Daca folosim <em>fill:var(--variabila-css)</em> svg-ul se va
-              colora in functie de ce avem noi setat in variabila
+              Daca folosim <em>fill:var(--variabila-css)</em> svg-ul se va colora in functie de ce
+              avem noi setat in variabila
             </p>
             <svg class="icon icon-orangered">
               <use href="./icon-defs.svg#icon-optimized-var" />
@@ -83,8 +79,8 @@
           <div class="lesson-example">
             <h2>Multiple colors</h2>
             <p>
-              Putem folosi mai multe variabile CSS si le putem folosi si pentru
-              alte proprietati in SVG (ex. stroke)
+              Putem folosi mai multe variabile CSS si le putem folosi si pentru alte proprietati in
+              SVG (ex. stroke)
             </p>
             <svg class="line-icon-colors">
               <use href="./icon-defs.svg#three-lines" />
@@ -92,6 +88,10 @@
           </div>
         </article>
       </section>
+      <div class="note mt-lg">
+        Putem folosi SVGO pentru a face optimizarea
+        <a href="https://jakearchibald.github.io/svgomg/" alt="SVGO">Link</a>
+      </div>
     </main>
   </body>
 </html>

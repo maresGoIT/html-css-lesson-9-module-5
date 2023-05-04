@@ -202,3 +202,10 @@ a:focus {
 .mt-lg {
   margin-top: 64px;
 }
+
+.note {
+  background: lightblue;
+  border: 1px solid #79abbb;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 16px;
+}
