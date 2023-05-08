@@ -10,17 +10,19 @@
 
     <title>HTML/CSS Modulul 5 - Lectia 9</title>
     <style>
-      .sticky {
-        background: white;
-        z-index: 1;
-        position: sticky;
-        top: 0;
+      .container {
+        background: red;
       }
 
-      .lengthy-article {
-        min-height: 1000px;
-        background: lightyellow;
-        padding: 16px;
+      p {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        z-index: -1;
+      }
+
+      p:hover {
+        z-index: 1;
       }
     </style>
   </head>
@@ -29,7 +31,6 @@
       <h1 class="heading-primary sticky">Proprietatea z-index</h1>
       <section class="mt-md">
         <h1>Titlul Paginii</h1>
-        <img src="./original.jpg" width="140" height="140" />
         <p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
       </section>
     </main>
