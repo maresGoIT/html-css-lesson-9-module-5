@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/fonts.css" />
+    <link rel="stylesheet" href="../../styles/main.css" />
+
+    <title>HTML/CSS Modulul 5 - Lectia 9</title>
+    <style>
+      .sticky {
+        background: white;
+        z-index: 1;
+        position: sticky;
+        top: 0;
+      }
+
+      .lengthy-article {
+        min-height: 1000px;
+        background: lightyellow;
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container example-page">
+      <h1 class="heading-primary sticky">Proprietatea z-index</h1>
+      <section class="mt-md">
+        <h1>Titlul Paginii</h1>
+        <img src="./original.jpg" width="140" height="140" />
+        <p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+      </section>
+    </main>
+  </body>
+</html>
